@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary: #EEEEEE;
+    --textColor1: #31363F;
+    --textColor2: #222831;
+    --textColor3: #FFF455;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo {
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid;
+}
+.logo-name{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--textColor2);
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+
+}
+.navbar-nav>a {
+    color: var(--textColor1 );
+    font-weight: 600;
+    padding: 0.3rem 0.9rem;
+    margin: 0.4rem;
+}
+#message {
+    border: 0.2rem solid;
+}
+#message:hover {
+    background-color: var(--textColor3);
+    border: none;
+    transition: 0.2s;
+}
+.hamburger-menu img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.4rem;
+    padding-right: 0.5rem;
+}
